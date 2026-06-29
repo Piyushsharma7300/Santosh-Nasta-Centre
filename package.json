@@ -1,0 +1,14 @@
+{
+  "name": "santosh-nasta-centre-website",
+  "version": "1.0.0",
+  "description": "Premium business website and backend for Santosh Nasta Centre",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "author": "Santosh Nasta Centre",
+  "license": "ISC"
+}
