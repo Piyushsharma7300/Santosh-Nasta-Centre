@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Santosh Nasta Centre - Premium Indian snacks, and traditional breakfast. Experience a legacy of authentic flavors, pristine hygiene, and modern hospitality.">
+  <meta name="keywords" content="Santosh Nasta Centre, Indian snacks, breakfast, sweets, samosa, cafe, boutique sweets, restaurant">
+  <meta name="author" content="Santosh Nasta Centre">
+  <title>Santosh Nasta Centre | Premium Snack Boutique & Cafe</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🟢</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       PAGE LOADER
+       ========================================================================== -->
+  <div id="loader">
+    <div class="loader-container">
+      <div class="loader-spinner"></div>
+      <div class="loader-logo">
+        <span>Santosh</span> <span class="gold">Nasta</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SCROLL PROGRESS BAR
+       ========================================================================== -->
+  <div id="scroll-progress"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== -->
+  <header>
+    <div class="container nav-container">
+      <!-- Logo -->
+      <a href="#home" class="logo" aria-label="Santosh Nasta Centre Home">
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224 224-100.3 224-224S379.7 32 256 32zm0 384c-88.4 0-160-71.6-160-160S167.6 96 256 96s160 71.6 160 160-71.6 160-160 160zm-32-243.8V128c0-8.8 7.2-16 16-16s16 7.2 16 16v44.2c27.1 6.3 48 30.7 48 60 0 8.8-7.2 16-16 16s-16-7.2-16-16c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 13.3 10.7 24 24 24h16c35.3 0 64 28.7 64 64s-28.7 64-64 64v20.2c0 8.8-7.2 16-16 16s-16-7.2-16-16v-20.2c-27.1-6.3-48-30.7-48-60 0-8.8 7.2-16 16-16s16 7.2 16 16c0 13.3 10.7 24 24 24s24-10.7 24-24c0-13.3-10.7-24-24-24h-16c-35.3 0-64-28.7-64-64s28.7-64 64-64z"/>
+        </svg>
+        <span>Santosh</span><span class="accent">Nasta</span>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#history" class="nav-link">History</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop Header Actions -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Light/Dark Theme">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.75 15a9.75 9.75 0 0 1-16.7 7.1A9.76 9.76 0 0 0 22 11.7a9.88 9.88 0 0 1-.25 3.3Z"/>
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM18.75 12a6.75 6.75 0 1 1-13.5 0 6.75 6.75 0 0 1 13.5 0ZM12 18.75a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75ZM3.75 12a.75.75 0 0 1 .75-.75H6.75a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75ZM17.25 12a.75.75 0 0 1 .75-.75H20.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75ZM5.636 5.636a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 1 1-1.06 1.061L5.636 6.697a.75.75 0 0 1 0-1.061ZM15.773 15.773a.75.75 0 0 1 1.061 0l1.591 1.592a.75.75 0 1 1-1.06 1.06l-1.592-1.591a.75.75 0 0 1 0-1.061ZM5.636 18.364a.75.75 0 0 1 0-1.06l1.591-1.592a.75.75 0 1 1 1.06 1.06l-1.591 1.592a.75.75 0 0 1-1.06 0ZM15.773 8.227a.75.75 0 0 1 0-1.06l1.592-1.592a.75.75 0 1 1 1.06 1.06l-1.592 1.592a.75.75 0 0 1-1.06 0Z"/>
+          </svg>
+        </button>
+        
+        <!-- Contact CTA Button -->
+        <a href="#contact" class="btn btn-accent btn-contact-nav">Contact Us</a>
+      </div>
+
+      <!-- Hamburger Button (Mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle Mobile Menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION (HOME)
+       ========================================================================== -->
+  <section id="home" class="hero">
+    <div class="hero-glow-bg"></div>
+    <div class="container hero-grid">
+      <!-- Hero Left Side Content -->
+      <div class="hero-content reveal reveal-left">
+        <div class="hero-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+            <path d="M12 2L2 22h20L12 2zm0 3.99L18.47 18H5.53L12 5.99zM11 11h2v4h-2v-4zm0 6h2v2h-2v-2z"/>
+          </svg>
+          Authentic Taste Since 1986
+        </div>
+        <h1 class="hero-title">
+          Savor the Legacy of <br><span>Flavor &amp; Purity</span>
+        </h1>
+        <p class="hero-desc">
+          Indulge in our premium range of artisan Indian sweets, crispy snack plates, and traditional breakfast delights. Crafted with recipes passed down through generations, using only 100% pure ingredients.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Contact Now</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      
+      <!-- Hero Right Side Visuals -->
+      <div class="hero-image-wrapper reveal reveal-right">
+        <div class="hero-image-container">
+          <img src="assets/images/hero-snacks.jpg" alt="Traditional Rajasthani Kadhi Bhujia, hot Samosas, and spicy Kachoris at Santosh Nasta Centre" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT SECTION
+       ========================================================================== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header reveal reveal-up">
+        <span class="section-subtitle">Our Heritage</span>
+        <h2 class="section-title">About Our Brand</h2>
+      </div>
+
+      <div class="about-grid reveal reveal-up">
+        <!-- Business Introduction Card -->
+        <div class="glass-card about-intro-card">
+          <h3 class="about-intro-title">Santosh Nasta Centre</h3>
+          <div class="about-owner">Founded &amp; Managed by Mr. Santosh Kumar</div>
+          <p class="about-intro-text">
+            Since 1986, Santosh Nasta Centre has been a beacon of taste, quality, and community. What started as a modest local endeavor has blossomed into a premium cafe and sweet boutique, loved by families and food critics alike. Our commitment remains unwavering: to serve you hygiene-checked, traditional preparations that feel like home.
+          </p>
+        </div>
+      </div>
+
+      <!-- Vision, Mission, Values Cards -->
+      <div class="about-cards-grid stagger-parent reveal reveal-up">
+        <!-- Mission Card -->
+        <div class="glass-card about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">Our Mission</h3>
+          <p class="about-card-desc">
+            To delight our guests daily by serving authentic, mouthwatering breakfast recipes and artisanal sweets created with uncompromised freshness and hygiene.
+          </p>
+        </div>
+
+        <!-- Vision Card -->
+        <div class="glass-card about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">Our Vision</h3>
+          <p class="about-card-desc">
+            To scale our tradition of outstanding culinary heritage across the region, building modern cafes while maintaining our core family values.
+          </p>
+        </div>
+
+        <!-- Values Card -->
+        <div class="glass-card about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+          </div>
+          <h3 class="about-card-title">Core Values</h3>
+          <p class="about-card-desc">
+            Purity of ingredients, strict sanitation control, premium quality hospitality, and building lifelong relationships based on culinary trust.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       HISTORY SECTION
+       ========================================================================== -->
+  <section id="history" class="section-padding" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header reveal reveal-up">
+        <span class="section-subtitle">Chronology</span>
+        <h2 class="section-title">Our Journey</h2>
+      </div>
+
+      <div class="history-grid">
+        <!-- Left Side: Interactive Timeline -->
+        <div class="timeline reveal reveal-left">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">1986</div>
+            <h3 class="timeline-title">The Humble Beginning</h3>
+            <p class="timeline-desc">
+               Founded by Mr. Santosh Kumar, Santosh Nasta Centre began as a humble street snack counter with a passion for serving authentic, high-quality traditional Indian snacks. Specializing in freshly               prepared potato samosas, crispy kachoris, and flavorful kadhi bhajiya, the journey started with great hope, dedication, love, and the blessings of the community. Today, we proudly continue that legacy by delivering the same homemade taste, freshness, and warmth to every customer.
+            </p>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">2005</div>
+            <h3 class="timeline-title">Establishment of First Store</h3>
+            <p class="timeline-desc">
+              With the continued trust and support of our customers, Santosh Nasta Centre expanded into a larger, permanent store and grew its team to provide faster and better service. Despite this growth, our menu and authentic recipes have remained unchanged, preserving the traditional flavors that define our identity.
+            </p>
+          </div>
+
+          <!-- Timeline Item 3
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">2018</div>
+            <h3 class="timeline-title">The Modern Sweet Boutique</h3>
+            <p class="timeline-desc">
+              Renovated the establishment into a modern sweet boutique and cafe. Introduced luxury gift boxes and standardized catering services.
+            </p>
+          </div> -->
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-year">Present &amp; Beyond</div>
+            <h3 class="timeline-title">Expanding the Legacy</h3>
+            <p class="timeline-desc">
+              Now operating as a premium local destination. Planning expansion of our franchise network to serve high-grade snacks globally.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Side: Gallery Images (history1.jpg / history2.jpg) -->
+        <div class="history-gallery reveal reveal-right">
+          <!-- Image Box 1 -->
+          <div class="history-img-box">
+            <img src="nasta.jpeg" alt="Historical beginnings of Santosh Nasta Centre in the 90s">
+            <div class="history-caption">
+              <div class="history-caption-year">1986</div>
+              <div class="history-caption-text">Preserving classic wood-fire baking recipes.</div>
+            </div>
+          </div>
+
+          <!-- Image Box 2 -->
+          <div class="history-img-box">
+            <img src="DukanAM.jpeg" alt="Modern clean cafe display counter at Santosh Nasta Centre">
+            <div class="history-caption">
+              <div class="history-caption-year">Today</div>
+              <div class="history-caption-text">Sophisticated layout with pure hospitality.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header reveal reveal-up">
+        <span class="section-subtitle">Reach Us</span>
+        <h2 class="section-title">Contact &amp; Location</h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Cards (Left Side) -->
+        <div class="contact-info stagger-parent reveal reveal-left">
+          <!-- Card 1: Owner -->
+          <div class="glass-card contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-info-title">Proprietor</div>
+              <div class="contact-info-value">Santosh Kumar (Owner &amp; Chef)</div>
+            </div>
+          </div>
+
+          <!-- Card 2: Phone -->
+          <div class="glass-card contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1.01c-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.72 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-info-title">Phone Number</div>
+              <div class="contact-info-value">6367236422</div>
+              <div class="contact-card-actions">
+                <a href="tel:6367236422" class="btn btn-accent btn-sm">Call Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Email -->
+          <div class="glass-card contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-info-title">Email Address</div>
+              <div class="contact-info-value">santoshNastaCentre@gmail.com</div>
+              <div class="contact-card-actions">
+                <a href="mailto:santoshNastaCentre@gmail.com" class="btn btn-accent btn-sm">Email Us</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Address -->
+          <div class="glass-card contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-info-title">Shop Location</div>
+              <div class="contact-info-value">Santosh Nasta Centre, Swaroopganj, District Sirohi, Rajasthan, India</div>
+              <div class="contact-card-actions">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Santosh+Nasta+Centre,+Swaroopganj,+Sirohi,+Rajasthan" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm">Get Directions</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Hours -->
+          <div class="glass-card contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/>
+              </svg>
+            </div>
+            <div style="width: 100%;">
+              <div class="contact-info-title">Opening Hours</div>
+              <ul class="contact-info-hours">
+                <li><span>Monday – Sunday</span> <span>8:00 AM – 6:00 PM</span></li>
+                <li style="margin-top: 5px; color: var(--accent-color); font-weight: 600;">(Open Every Day)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Interactive Form & Map (Right Side) -->
+        <div class="contact-interactive reveal reveal-right">
+          <!-- Contact Form Inside Glass Card -->
+          <div class="glass-card">
+            <h3 class="contact-form-title">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+              </svg>
+              Send Us a Message
+            </h3>
+            
+            <form id="contact-form" autocomplete="off">
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="text" id="form-name" class="form-input" placeholder="Name" required>
+                  <label for="form-name" class="form-label">Full Name *</label>
+                </div>
+                <div class="form-group">
+                  <input type="email" id="form-email" class="form-input" placeholder="Email" required>
+                  <label for="form-email" class="form-label">Email Address *</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="tel" id="form-phone" class="form-input" placeholder="Phone">
+                <label for="form-phone" class="form-label">Phone Number (Optional)</label>
+              </div>
+              <div class="form-group">
+                <textarea id="form-message" class="form-input" rows="4" placeholder="Message" required></textarea>
+                <label for="form-message" class="form-label">Your Message *</label>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Embedded Real Google Maps Centered on Santosh Nasta Centre, Swaroopganj -->
+          <div class="map-container">
+            <iframe 
+              src="https://maps.google.com/maps?q=Santosh%20Nasta%20Centre,%20Swaroopganj,%20Sirohi,%20Rajasthan&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Google Maps Location of Santosh Nasta Centre">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- About/Logo Column -->
+      <div>
+        <div class="footer-logo">
+          <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224 224-100.3 224-224S379.7 32 256 32zm0 384c-88.4 0-160-71.6-160-160S167.6 96 256 96s160 71.6 160 160-71.6 160-160 160z"/>
+          </svg>
+          Santosh<span>Nasta</span>
+        </div>
+        <p class="footer-desc">
+          Crafting delightful tastes and authentic traditional sweets since 1995. We prioritize local sourcing, pristine hygiene levels, and warm hospitality for all our guests.
+        </p>
+        <!-- Social Icons -->
+        <div class="footer-socials">
+          <!-- Facebook -->
+          <a href="#" class="footer-social-link" aria-label="Visit our Facebook page">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="#" class="footer-social-link" aria-label="Visit our Instagram page">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+            </svg>
+          </a>
+          <!-- WhatsApp -->
+          <a href="#" class="footer-social-link" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.233-1.371a9.936 9.936 0 0 0 4.779 1.218h.004c5.506 0 9.989-4.478 9.99-9.986A9.972 9.972 0 0 0 12.012 2zm5.794 13.56c-.25.705-1.25 1.29-1.721 1.365-.418.067-.961.12-2.812-.647-2.368-.98-3.896-3.377-4.015-3.535-.119-.158-.969-1.286-.969-2.454 0-1.168.613-1.741.83-1.979.219-.238.479-.297.639-.297.16 0 .32.001.458.007.143.006.336-.055.526.401.196.471.673 1.64.732 1.759.059.12.099.258.02.416-.08.159-.119.258-.238.396-.119.139-.251.31-.357.416-.119.119-.244.249-.105.487.139.238.616 1.012 1.32 1.64.908.808 1.671 1.058 1.91 1.177.238.119.377.099.516-.059.139-.158.613-.713.772-.953.159-.239.317-.199.536-.119.218.08 1.385.653 1.624.772.238.119.397.179.456.277.06.099.06.574-.19 1.279z"/>
+            </svg>
+          </a>
+          <!-- YouTube -->
+          <a href="#" class="footer-social-link" aria-label="Visit our YouTube channel">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.107C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.388.511A3.002 3.002 0 0 0 .502 6.163C0 8.07 0 12 0 12s0 3.93.502 5.837a3.003 3.003 0 0 0 2.11 2.108C4.495 20.455 12 20.455 12 20.455s7.505 0 9.388-.51a3.002 3.002 0 0 0 2.11-2.108C24 15.93 24 12 24 12s0-3.93-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links Column -->
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About Brand</a>
+          <a href="#history">Chronology</a>
+          <a href="#contact">Contact &amp; Map</a>
+        </div>
+      </div>
+
+      <!-- Services / Hours Column -->
+      <div>
+        <h3 class="footer-title">Operating Hours</h3>
+        <div class="footer-links">
+          <span style="font-size: 0.9rem;">Monday – Sunday</span>
+          <span style="font-size: 0.9rem;">8:00 AM – 6:00 PM</span>
+          <span style="font-size: 0.9rem; color: var(--accent-color); font-weight: 600;">(Open Every Day)</span>
+          <span style="font-size: 0.9rem;">Catering Availability: 24/7</span>
+        </div>
+      </div>
+
+      <!-- Contact Information Column -->
+      <div>
+        <h3 class="footer-title">Store Contact</h3>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          <span>Santosh Nasta Centre, Swaroopganj, District Sirohi, Rajasthan, India</span>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1.01c-.36-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.72 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+          </svg>
+          <span>6367236422</span>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          <span>santoshNastaCentre@gmail.com</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar Copyright -->
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Santosh Nasta Centre. All rights reserved. Premium sweets &amp; snack creations.</p>
+      <p>Designed with care for a premium hospitality experience.</p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       BACK TO TOP BUTTON
+       ========================================================================== -->
+  <button id="back-to-top" aria-label="Scroll Back To Top">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>
+    </svg>
+  </button>
+
+  <!-- ==========================================================================
+       TOAST ALERTS SYSTEM
+       ========================================================================== -->
+  <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-indicator">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+      </svg>
+    </div>
+    <span id="toast-message">Action processed!</span>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
